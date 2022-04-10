@@ -1,0 +1,30 @@
+TCID,Tytuł,Warunki wstępne,ID kroku,Opis kroku,Oczekiwany rezultat
+1,Rejestracja użytkownika z użyciem poprawnego loginu i poprawnego hasła,Uruchomiona aplikacja Mr Buggy 3,1.,Podać login spełniający warunki: Ania1! oraz hasło: Ania234567890123456!,Rejestracja przebiega poprawnie
+2,Rejestracja użytkownika z użyciem poprawnego loginu i błędnego hasła,Uruchomiona aplikacja Mr Buggy 3,1.,Podać login spełniający warunki: Ania1! oraz hasło: Ania2!,Rejestracja niemożliwa
+3,Rejestracja użytkownika z użyciem błędnego loginu i poprawnego hasła,Uruchomiona aplikacja Mr Buggy 3,1.,Podać login spełniający warunki: Ania oraz hasło: Ania234567890123456!,Rejestracja niemożliwa
+4,Blokada konta,Posiadanie loginu zarejestrowanego użytkownika,1.,"Podać istniejący login i błędne hasło do konta, powtórzyć czynność 3 razy",Konto zostaje zablokowane
+5,Indywidualne loginy,Posiadanie loginu zarejestrowanego użytkownika,1. ,Rejestracja użytkownika na istniejący login Ania1! na inny mail,Rejestracja niemożliwa
+6,Odzyskiwanie hasła,Uruchomiona aplikacja Mr Buggy 3,1.,"Otworzyć okno logowania i kliknąć opcję ""nie pamiętam hasła""",
+,,,2.,Wykonać kroki zgodnie z poleceniami,Uzyskanie nowego hasła do konta
+7,Pamięć operacyjna,Uruchomiona aplikacja Mr Buggy 3,1.,Otworzyć okno Menadżer zadań Windows,Aplikacja zajmuje mniej pamięci operacyjnej niż 100MB
+8,Wielkość pliku z kopią zapasową,Uruchomiona aplikacja Mr Buggy 3,2.,Uworzyć kopię zapasową,
+,,,3.,Odnaleźć plik kopii zapasowej,
+,,,4.,Sprawdzić wielkość pliku przez kliknięcie prawym przyciskiem myszy i wybraniu właściwości ,Wielkość pliku nie przekracza 2MB
+9,Zgodność interfejsu z wymaganiami - pola,Poprawnie zalogowany Użytkownik,1.,"Sprawdzić czy menu boczne zawiera elementy: czas, nr zadania, opis broblemu, lista zadań",Okno aplikacji zawiera wszystkie wymagane elementy
+10,Zgodność interfejsu z wymaganiami - przyciski,Uruchomiona aplikacja Mr Buggy 3,1.,"Sprawdzić czy menu boczne zawiera przyciski: zaraportuj defekt, następne, poprzednie, zakończ",Okno aplikacji zawiera wszystkie wymagane elementy
+11,Rozdzielczość wymagana,Uruchomiona aplikacja Mr Buggy 3,1. ,Zmienić ustawienia rozdzielczości monitora na 1024x768,Okno aplikacji w całości mieści się na ekranie
+,,,2.,Uruchomić aplikację,
+12,Rozdzielczość mniejsza niż wymagana,Uruchomiona aplikacja Mr Buggy 3,1.,Zmienić ustawienia rozdzielczości monitora na 800x600,Okno aplikacji nie mieści się w całości na ekranie
+,,,2.,Uruchomić aplikację,
+13,Uruchomienie aplikacji,Dostęp do internetu ,1.,Pobranie pliku ze strony http://mrbuggy.pl/mrbuggy3/,
+,,,2.,Rozpakowanie pobranego pliku,
+,,,3.,Uruchomienie aplikacji,Uruchomienie aplikacji jest możliwe
+14,Tryby pracy aplikacji: drużynowy/członek,Uruchomiona aplikacja Mr Buggy 3,1.,Logowanie jako członek drużyny,
+,,,2.,"Sprawdzenie, czy jest możliwa opcja ""Zaraportuj defekt""",Członek drużyny w trybie drużynowym nie ma tej opcji
+15,Tryby pracy aplikacji:drużynowy/kapitan,Uruchomiona aplikacja Mr Buggy 3,1.,Logowanie jako kapitan drużyny,
+,,,2.,"Sprawdzenie, czy jest możliwa opcja ""Zaraportuj defekt""",Kapitan może zgłosić defekt
+16,"Działanie przycisku ""Następne"" i ""Poprzednie""",Zalogowany Użytkownik,1.,"Naciśnięcie przycisku ""Następne"" trzy razy",Apikacja pokazuje zadanie numer 4
+,,,2.,"Naciśnięcie przycisku ""Poprzednie"" trzy razy",Aplikacja wraca do widuku zadania numer 1
+17,"Działanie przycisku ""Zaraportuj defekt""",Zalogowany Użytkownik,1.,"Naciśnięcie przycisku ""Zaraportuj defekt""","Jest możliwość zaraportowania błędu, utworzona została kopia zapasowa z aktualnym stanem aplikacji"
+18,"Działanie przycisku ""Zakończ""",Zalogowany Użytkownik,1.,"Naciśnięcie przycisku ""Zakończ""",
+,,,2.,Potwierdzenie chęci zakończenia zadania,"Aplikacja kończy pracę, tworzony jest raport "
