@@ -1,4 +1,4 @@
-#### Wykorzystanie technik czarnoskrzynkowych 
+#### Nieścisłości i błędy wykryte podczas analizy specyfikacji aplikacji
 
 
 
