@@ -1,0 +1,39 @@
+Wymagania w oparciu o specyfikację,,
+Wymagania środowiskowe,"Część kliencka: Windows 7, Windowsk 8/8.1",
+,Część serwerowa: Windows 7,
+,"Aplikacja nie wymaga instalacji - dostarczona w postaci archiwum ""zip""",
+Wymagania funkcjonalne: część kliencka,Wersja demonstracyjna,1. Zaimplementowanie 1 zadania testowego
+,Wersja końcowa,"1. Zaimplementowanie 15 zadań, każde z 1 defektem"
+,,2. Stworzenie trzech trybów pracy: tryb kapitana i członka drużyny w kategorii drużynowej oraz tryb zawodnika w kategorii indywidualnej
+,,3. Tryb członka dużyny nie posiada możliwości raportowania defektów
+,,4. Aplikacja musi generować dziennik zdarzeń
+,,"5. Tworzenie kopii zapasowej po wciśnieciu przycisku ""Znalazłem defekt"". Plik w formacie pliku binarnego"
+,,"6. Defekty w aplikacji są oceniane wg kryterium ważności w podziale na 3 klasy: defekty trywialne (od 1 do 2pkt), defekty normalne (od 3 do 4pkt), defekty krytyczne (od 4 do 6pkt)"
+,,"7. Aplikacja przypisuje -2pkt przy zgłoszeniu fefektu, który jest poprawnie działającą funkcjonalnością"
+,,8. Aplikacja przypisuje 0pkt za niezgłoszenie defektu zadania
+Wymagania funkcjonalne: część serwerowa,1. Prowadzenie klasyfikacji generalnej w kategorii indywidualnej i drużynowej,
+,2. Automatyczne ocenianie poprawności zaraportowanych defektów w raportach przesyłanych przez zawodników/drużyny,
+,3. Komisja Sędziowksa może ręcznie zmienić ilość punktów przyznanych za zadanie,
+,"4. Generowanie raportu zbiorczego z uwzględnieniem danych: pozycja w klasyfikacji generalnej, nazwa zawodnika/drużyny, ilość przyznanych punktów za dane zadanie, suma zdobytych punktów",
+,"5. Konieczne jest rejestrowanie przez aplikację wszystkich czynności w dzienniku zdarzeń (poprawnie/niepoprawnie odebranyc raport, oceniany raport, itp)",
+Interfejs części klienckiej,"1.Wszystkie komunikaty, infomracje, nazwy w aplikacji są w języku polskim",
+,2. Okno aplikacji powinno się mieścić w całości na ekranie monitora o rozdzielczości 1024x768,
+,3. W oknie aplikacji musi się znaleźć ikona MrBuggy 3,
+,"4. Okno aplikacji dzieli się na dwie części: ""Zadania"" oraz ""Menu boczne""",
+,"5. Okno ""Zadania"" wyświetla zadanie, w którym użytkownik musi odnaleźć defekty",
+,"6. Menu boczne zawiera pola: ""Czas"", ""Nr zadania"", ""Opis problemu"", ""Lista zadań""",
+,"7. Menu boczne zawiera przyciski: ""Zaraportuj defekt"", ""Następne"", ""Poprzednie"", ""Zakończ""",
+Wymaganie niefunkcjonalne: wymagnia wydajności,1. Raport zbiorczy ma się generować nie dłużej niż 15 sekund,
+,2. Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB,
+,3. Aplikacja serwerowa musi być w stanie przyjąć w jednym momencie do 50 raportów użytkowników,
+,4. Aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera,
+Wymagania niefunkcjonalne: wymagania bezpieczeństwa,1. Dostęp do części serwerowej aplikacji musi być zabezpieczony loginem i hasłem,
+,2. Loginy dla użytkownika części serwerowej muszą być indywidualne,
+,"3. Login musi składać się z 4 do 8 znaków i zawierać: przynajmniej jedną małą i dużą literę, jedną cyfrę i jeden znak specjalny",
+,4. Login nie może zawierać białych znaków i polskich znaków dialektycznych,
+,"5. Hasło musi składać się z co najmniej 20 znaków i zawierać: przynajmniej jedną małą i dużą literę, jedną cyfrę i jeden znak specjalny",
+,6. Hasło nie może zawierać białych znaków i polskich znaków dialektycznych,
+,7. Hasła muszą być przechowywane w formacie zaszyfrowanym,
+,"8. Musi zostać zaimplementowana procedura zakładania, przywracania oraz odblokowywania konta",
+,9. Musi zostać zaimplementowana procedura zmiany hasła,
+,10. Po 3 krotnym wpisaniu błędnego hasła konto musi zostać zablokowane,
