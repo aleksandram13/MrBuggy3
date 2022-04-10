@@ -1,0 +1,28 @@
+LP,Gdzie znajduje się błąd?,Strona,Co jest błędem?,Jak powinno być?
+1,"Wersje dokumentu, tabelka",3,Harmonogram,Nie jest dołączony do specyfikacji.
+2,"Wersje dokumentu, tabelka",3,"Wersja 0.7, 1.0",Brak wersji 0.8 oraz 0.9.
+3,"Wersje dokumentu, tabelka",3,Wersja 0.4,Brak GUI części serwerowej oraz metody oceny defektów w specyfikacji.
+4,Spis definicji,4,Komisja rewizyjna,"Nie występuje w specyfikacji, poza spisem definicji."
+5,Spis definicji,5,Instalator aplikacji,"Aplikacja nie wymaga instalacji, trzeba doprecyzować."
+6,Punkt 1.,6,Dokument ten przedstawia specyfikację aplikacji MrBuggy 2015.,Dokument ten przedstawia specyfikację aplikacji MrBuggy 3.
+7,Punkt 3,6,Wymagane są cztery wersje aplikacji klienckiej,"Opis w specyfikacji i słowniku dotyczy trzech wersji: demonstracyjnej, końcowej i publicznej."
+8,Punkt 3,6,Wersja demonstracyjna (...) powinno znajdować się jedno zadanie testowe.,"W punkcie 9. jest opis dwóch zadań do wersji demonstracyjnej - doprecyzować, jaka jest ostateczna ilość wymaganych zadań do tej wersji aplikacji."
+9,Punkt 3.,7,Wersja publiczna - zostanie udostępniona wszystkim chętnym w celach edukacyjnych po ukończonych Mistrzostwach.,"Należy doprecyzować, czy będzie to wersja końcowa czy będzie to kolejna wersja aplikacji. Nie wynika to jednoznacznie z tekstu."
+10,Punkt 6.1,10,"Pole “Czas” - wyświetla czas do zakończenia rundy (format: gg:mm:ss; godzina, minuta, sekunda, milisekunda)","Wymagane jest wyświetlanie milisekundy, ale nie ma tego w przykładowym formacie czasu."
+11,Punkt 6.1,10,Zasady numeracji zadań są opisane poniżej.,Nie ma dalszych informacji w specyfikacji.
+12,Punkt 6.1,10,"Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami. Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem.",Jakim kolorem? Doprecyzować.
+13,Punkt 6.1,11,Okno aplikacji powinno mieścić się w całości na ekranie monitora o rozdzielczości 1024x768 i być estetyczne.,Co znaczy 'estetyczne' okno aplikacji?
+14,punkt 6.1,11,W oknie aplikacji musi się znaleźć ikona MrBuggy 3.,W jakim miejscu ma znajdować się ikona? 
+15,Schemat,11,Pole “Opis zadania”,"W specyfikacji jest opisane pole ""Opis problemu"", jaka jest poprawna wersja?"
+16,Schemat,11,"Przycisk ""Znalazłem defekt"", użyte również w pkt. 5.1, str 9","W punkcie 6.1 str 10.  jest przycisk ""Zaraportuj defekt"", jaka jest poprawna wersja?"
+17,Schemat,11,"""Status połączenia""",Nie ma informacji o funkcji tego przycisku.
+18,Punkt 7.1,12,Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1,Doprecyzować jednostkę.
+19,Punkt 7.1,12,Wzór: t - średni czas odpowiedzi inferfejsu ma być większa niż 10000,Jaka jednostka?
+20,Punkt 7.2,12,Login musi składać się z 2 do 8 znaków,"Po spelnieniu wymagań login będzie się składał przynajmniej z 4 znaków (przynajmniej jedna mała litera, jedna wielka litera, jedna cyfra, jeden znak specjalny)."
+21,Punkt 7.2,13,"Musi zostać zaimplementowana procedura zakładania, przywracania oraz odblokowywania konta",Jak dokładnie ma wyglądać procedura?
+22,Punkt 7.2,13,Musi zostać zaimplementowana procedura zmiany hasła,Jak dokładnie ma wyglądać procedura?
+23,Punkt 7.2,13,Tokeny do konta mają być generowane losowo,W jaki sposób?
+24,Punkt 7.3,13,W ciągu roku średnia ilość awarii (rozumianych jako ilość niespodziewanych wyłączeń aplikacji wymagających skorzystania z kopii zapasowej) w jednym dniu nie może być większa niż 1,Wymaganie nie jest mierzalne.
+25,Punkt 10.,14,Kryteria ważności dzielą się na 3 klasy,Brak informacji na jakiej podstawie są przyporządkowywane błędy do wymienionych klas.
+26,Punkt 10.,14,"defekty normalne (od 3 do 4pkt), defekty krytyczne (od 4 do 6 pkt)",ta sama wartość (4) nie może jednocześnie należeć do dwóch klas równoważności.
+27,Cały dokument,,"Ortografia, interpunkcja, nagłówki","Cały dokument trzeba sprawdzić pod względem błędów (str 7. ""urzyta"", brak znaków interpunkcyjnych, nagłówek na każdej stronie ""Specyfikacja aplikacji MrBuggy 3"" zlewa się z tekstem, może zmienić czcionkę/kolor nagłówka?)."
