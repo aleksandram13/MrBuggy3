@@ -1,1 +1,1 @@
-### Wymagania zebrane w oparciu o specyfikację
+### Wymagania zebrane w oparciu o specyfikację.
