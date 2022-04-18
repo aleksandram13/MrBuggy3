@@ -1,0 +1,11 @@
+TCID,Tytuł,Warunki wstępne,ID kroku,Opis kroku,Oczekiwany rezultat,Faktyczny rezultat
+C37,Produkty w koszyku,Otworzone zadanie 2.,1,"Dodajemy do koszyka 1 rodzaj produktu, 99 dostępnych egzemplarzy - monitor.",W koszyku pojawia się 99 monitorów.,
+,,,2,Przechodzimy do koszyka i klikamy zamów.,Dostępne jest 1 monitorów do ponownego wybrania.,
+,,,3,Ponownie dodajemy monitor do koszyka i w widoku koszyka zwiększamy ilość egzemplarzy,"Czynność nie powinna być możliwa - nie możemy dodać więcej produktów, niż mamy na stanie","Możliwe jest zmienienie ilości na większą, niż dostępne na magazynie, następnie wyświetlany jest stan ujemny"
+C38,Przelew,Otworzone zadanie 4.,1,"Wpisujemy numer konta do przelewu: 83109069928729691303181767, kwota przelewu: 55zł",Po naciśnięciu przycisku 'OK' dane zapiszą się poprawnie,Kwota powiększa się o 1zł
+C39,Działanie stopera,Otworzone zadanie 7.,1,Klikamy 'start' stopera,Zegar uruchamia się,
+,,,2,Klikamy 'stop' stopera,Zegar zatrzymuje się,
+,,,3,Ponownie klikamy 'start' ,Zegar dalej odlicza czas,
+C40,Przelew 2,"Otworzone zadanie 20, poprawny numer konta odbiorcy, podane wymagane dane",1,"Kwota przelewu wymaga wpisania groszy, np: 5,05",Kwota nie zmienia się,
+C42,Stoper 2,Otworzone zadanie 7.,1,"Uruchamiamy stoper, odliczamy czas do minuty",Przycisk 'stop' zatrzyma odliczanie,Przycisk 'stop' nie działa
+C43,Zadanie 8,Otworzone zadanie 8.,1,W pole 'Wejście 1' wpisujemy dowolną cyfrę,"Wpisywanie dowolnej wartości powinno być zablokowane, możliwe powinno być tylko i wyłącznie wybieranie dwóch możliwości z dostępnej listy rozwijanej.",Można wpisać dowolną cyfrę
