@@ -50,7 +50,7 @@ Raport [testrail-report-10](https://github.com/aleksandram13/MrBuggy3/blob/69fee
 *T60* | Kwota przelewu | **Po zapisaniu, kwota przelewu zwiększa się o 1zł**
 *T76* | Stoper można zatrzymać w dowolnym momencie | **Przycisk 'stop' nie działa po upływie 1 minuty**
 *T80* | Możliwe jest wprowadzenie danych tylko z listy rozwijanej | **Można wpisać dowolną wartość z klawiatury**
-
+ 
 
 ---
     
