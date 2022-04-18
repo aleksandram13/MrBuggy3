@@ -1,1 +1,1 @@
-#### Przypadki testowe, które wynikają ze specyfikacji oraz zebranych wymagań
+#### Przypadki testowe, które wynikają ze specyfikacji oraz zebranych wymagań.
